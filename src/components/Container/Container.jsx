@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 const Container = () => {
     const classes = useStyles();
     return (
-        <div className={classes.root}>
+        <div>
             <Navbar></Navbar>
             <Scroll showBelow={50}></Scroll>
             <Intro></Intro>

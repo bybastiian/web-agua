@@ -1,4 +1,3 @@
-import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, Button, Grid, Typography } from '@material-ui/core';
 import imgIntro from '../static/img/intro-bg.jpg';
@@ -9,8 +8,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundImage: `url(${imgIntro})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        width: `calc(100vw - 17px)`,
-        margin: -8,
     },
     title: {
         marginTop: 80,
@@ -33,7 +30,7 @@ const Intro = (props) => {
                         Sólo debe hacer su pedido y estaremos con usted...
                     </Box>
                     <Box textAlign="center" mt={8}>
-                        <Button variant="contained" size="large" color="inherit">QUIÉNES SOMOS</Button>
+                        <Button variant="contained" size="large" color="secondary">QUIÉNES SOMOS</Button>
                     </Box>
                 </Typography>
             </Box>

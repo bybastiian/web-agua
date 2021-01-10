@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Intro from './components/Intro/Intro'
 import About from './components/About/About';
 import Scroll from './components/Scroll/Scroll'
+import Products from "./components/Products/Products";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Scroll showBelow={50}></Scroll>
             <Intro></Intro>
             <About></About>
+            <Products></Products>
         </ThemeProvider>
     )
 }

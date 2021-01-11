@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     span: {
         color: "#6aaf08",
     },
-    box: {
+    button: {
         margin: theme.spacing(1),
     }
 }));
@@ -48,8 +48,8 @@ const About = (props) => {
                         </Box>
                 </Typography>
                 <Box paddingLeft={7} paddingBottom={8}>
-                    <Button className={classes.box} variant="contained" size="large" color="secondary">R. SANITARIA</Button>
-                    <Button className={classes.box} variant="contained" size="large" color="secondary">DONACIÓN</Button>
+                    <Button className={classes.button} variant="contained" size="large" color="secondary">R. SANITARIA</Button>
+                    <Button className={classes.button} variant="contained" size="large" color="secondary">DONACIÓN</Button>
                 </Box>
             </Grid>
             <Grid key={2} item xs={6}>

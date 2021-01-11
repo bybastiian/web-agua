@@ -7,6 +7,10 @@ import Intro from './components/Intro/Intro'
 import About from './components/About/About';
 import Scroll from './components/Scroll/Scroll'
 import Products from "./components/Products/Products";
+import Briefcase from "./components/Briefcase/Briefcase";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/Contact";
+import Social from "./components/Social/Social";
 
 const App = () => {
     return (
@@ -17,6 +21,10 @@ const App = () => {
             <Intro></Intro>
             <About></About>
             <Products></Products>
+            <Briefcase></Briefcase>
+            <Testimonials></Testimonials>
+            <Contact></Contact>
+            <Social></Social>
         </ThemeProvider>
     )
 }

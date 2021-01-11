@@ -68,7 +68,7 @@ const Testimonials = (props) => {
                 <Typography color="textPrimary" align='center' >
                     <Box fontWeight="fontWeightBold" fontSize="h4.fontSize">
                         Clientes
-                </Box>
+                    </Box>
                     <hr className={classes.hr} ></hr>
                 </Typography>
                 <Carousel navButtonsAlwaysInvisible>
